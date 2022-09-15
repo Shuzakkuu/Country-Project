@@ -1,7 +1,7 @@
 .navi {
     list-style: none;
     margin: auto;
-    width: 18%;
+    width: fit-content;
     text-align: center;
     border-radius: 5px;
     border-color: grey;
@@ -12,7 +12,7 @@
 }
 
 .navi>li {
-    font-size: x-large;
+    font-size: 200%;
     border-style: solid;
     border-color: lightgray;
     display: inline-block;
@@ -23,6 +23,61 @@
     margin-bottom: 10px;
     margin-right: 5px;
     margin-left: 5px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: normal;
+    font-size: 500%;
+    width: fit-content;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 40px;
+}
+
+p {
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 25%;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 80px;
+    font-size: x-large;
+}
+
+.img {
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 80px;
+    width: fit-content;
+}
+
+img {
+   
 }
 
 .navi>li>a:hover {
